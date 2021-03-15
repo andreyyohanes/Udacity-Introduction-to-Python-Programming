@@ -2,8 +2,8 @@ lessons = ["Why Python Programming", "Data Types and Operators", "Control Flow",
 
 def my_enumerate(iterable, start=0):
     i = start
-    for lesson in iterable:
-        yield (i, lesson)
+    for element in iterable:
+        yield (i, element)
         i += 1
 
 
